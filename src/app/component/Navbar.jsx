@@ -17,9 +17,9 @@ const Navbar = () => {
       }}
     >
       <div className=" w-full m-auto">
-        <h1 className="text-2xl text-white">Pilihan Beasiswa</h1>
+        <Link href={"/"} className="text-2xl text-white font-semibold">Pilihan Beasiswa</Link>
       </div>
-      <ul className="flex items-center">
+      <ul className="lg:flex items-center hidden ">
         <li>
           <Link
             className={`p-3  w-[300px] flex justify-center ${path === "/" ? "bg-blue-400 text-white" : " bg-white"}`}
